@@ -2,6 +2,7 @@
 import React from 'react'
 import SidebarRow from './SidebarRow';
 import kute from '../../images/download.jpeg'
+import './Sidebar.css'
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import EmojiFlagsIcon from '@material-ui/icons/EmojiFlags';
 import PeopleIcon from '@material-ui/icons/People';
@@ -12,7 +13,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 function Sidebar() {
     return (
         <div className="sidebar">
-            <SidebarRow src={kute}/>
+            <SidebarRow src={kute} title="Nguyen Nam"/>
             <SidebarRow 
                Icon={LocalHospitalIcon}
                title="COVID-19 Quảng Ninh"

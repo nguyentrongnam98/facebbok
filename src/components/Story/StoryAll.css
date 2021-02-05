@@ -1,0 +1,6 @@
+.storyAll {
+    display: flex;
+}
+.story__mr {
+  margin-right: 10px;
+}
