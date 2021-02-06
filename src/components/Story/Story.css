@@ -9,6 +9,7 @@
 }
 .story:hover {
     transform: scale(1.07);
+    cursor: pointer;
 }
 .story__Avatar {
     margin: 10px;
