@@ -6,6 +6,7 @@ import avatar2 from '../../images/avatar2.jpg'
 import avatar3 from '../../images/avatar3.jpg'
 import avatar4 from '../../images/avatar4.jpg'
 import avatar5 from '../../images/avatar5.jpg'
+import avatar8 from '../../images/avatar8.jpg'
 function StoryAll(props) {
     return (
         <div className="storyAll">
@@ -35,6 +36,11 @@ function StoryAll(props) {
              <Story 
                image={avatar5}
                profileSrc={avatar5}
+               title="Meo 5"
+            />
+             <Story 
+               image={avatar8}
+               profileSrc={avatar8}
                title="Meo 5"
             />
         </div>

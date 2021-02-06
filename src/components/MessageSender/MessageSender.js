@@ -19,7 +19,7 @@ function MessageSender(props) {
                 <Avatar src={kute}/>
                 <form action="">
                     <input type="text" placeholder="What's on your mind" className="messageSender__input" value={input} onChange={(e) => setInput(e.target.value)}/>
-                    <input type="text" placeholder="image URL (Optional )" value={imageUrl} onChange={e => setImageUrl(e.target.value)}/>
+                    <input type="text" placeholder="image URL (Optional )" value={imageUrl} onChange={e => setImageUrl(e.target.value)} style={{borderRadius:'15px'}}/>
                     <button type="submit" onClick={(e)=>handleSubmitClick(e)}>Hidden submit</button>
                 </form>
             </div>
